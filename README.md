@@ -4,8 +4,6 @@ A simple utility to join multiple class names into a single string.
 
 ## Installation
 
-Install via npm:
-
 Install from the [npm registry](https://www.npmjs.com/) with your package manager:
 
 ```bash
@@ -27,7 +25,7 @@ console.log(className);
 
 ```
 
-Features
+## Installation
 
 ```bash
 Supports strings, numbers, arrays, and objects.
