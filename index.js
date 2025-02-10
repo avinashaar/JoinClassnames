@@ -1,4 +1,4 @@
-const MergeClassnames = (...args) => {
+const JoinClassList = (...args) => {
   let classnameList = [];
   args.forEach((classname) => {
     if (!classname) {
@@ -12,7 +12,7 @@ const MergeClassnames = (...args) => {
     }
 
     if (Array.isArray(classname)) {
-      classnameList.push(MergeClassnames(...classname));
+      classnameList.push(JoinClassList(...classname));
       return;
     }
 
@@ -29,4 +29,4 @@ const MergeClassnames = (...args) => {
   return classnameList.join(" ");
 };
 
-module.exports = MergeClassnames;
+module.exports = JoinClassList;

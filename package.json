@@ -1,5 +1,5 @@
 {
-  "name": "CombineClassNames",
+  "name": "join-class-list",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
