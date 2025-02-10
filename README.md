@@ -7,7 +7,7 @@ A simple utility to join multiple class names into a single string.
 Install from the [npm registry](https://www.npmjs.com/) with your package manager:
 
 ```bash
-npm install classnames
+npm install join-class-list
 ```
 
 ```sh
