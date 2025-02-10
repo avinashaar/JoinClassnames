@@ -28,3 +28,5 @@ const JoinClassNames = (...args) => {
 
   return classnameList.join(" ");
 };
+
+module.exports = JoinClassNames;
