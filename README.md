@@ -25,7 +25,7 @@ console.log(className);
 
 ```
 
-## Installation
+## Features
 
 ```bash
 Supports strings, numbers, arrays, and objects.
