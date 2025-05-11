@@ -16,7 +16,7 @@ const JoinClassList = (...args) => {
       return;
     }
 
-    if (classname === "object") {
+    if (classnameType === "object") {
       for (let key in classname) {
         if (Object.hasOwn(classname, key) && classname[key]) {
           classnameList.push(key);
